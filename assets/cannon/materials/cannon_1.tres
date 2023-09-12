@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://b82gfvbw0fa81"]
+
+[ext_resource type="Texture2D" uid="uid://d3p18ihfroqvj" path="res://assets/cannon/cannon_1234.jpg" id="1_iguqg"]
+[ext_resource type="Material" uid="uid://bqedyxd35688p" path="res://assets/materials/outline.tres" id="2_c56av"]
+
+[resource]
+next_pass = ExtResource("2_c56av")
+specular_mode = 1
+albedo_color = Color(0.8, 0.8, 0.8, 1)
+albedo_texture = ExtResource("1_iguqg")

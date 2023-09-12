@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://dd1xd7j224umr"]
+
+[ext_resource type="Texture2D" uid="uid://21owpkaq0v4v" path="res://assets/textures/checkered_purple.png" id="1_kb51s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7nao3"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="BoxMesh" id="BoxMesh_6gnt2"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f1qkv"]
+diffuse_mode = 3
+specular_mode = 1
+albedo_texture = ExtResource("1_kb51s")
+uv1_scale = Vector3(1.5, 1, 1)
+
+[node name="Cube" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_7nao3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_6gnt2")
+surface_material_override/0 = SubResource("StandardMaterial3D_f1qkv")

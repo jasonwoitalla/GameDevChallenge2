@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4yin4o5eiirf"]
+
+[ext_resource type="PackedScene" uid="uid://dg8odiwhhuike" path="res://assets/flag/quest_item_flag.gltf" id="1_qvnuv"]
+
+[node name="quest_item_flag" instance=ExtResource("1_qvnuv")]
+
+[node name="quest_item_flag2" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="Skeleton3D" parent="quest_item_flag2/flag" index="0"]
+bones/1/position = Vector3(0.693353, -4.60818e-06, -3.68953e-05)
+bones/1/rotation = Quaternion(0.601387, 0.333088, 0.667403, 0.286284)
+bones/2/position = Vector3(1.3208, -0.000267625, 9.53674e-05)
+bones/2/rotation = Quaternion(-0.00382158, 0.095696, 0.269562, 0.958209)
+
+[node name="AnimationPlayer" parent="." index="1"]
+autoplay = "quest_item_flag"

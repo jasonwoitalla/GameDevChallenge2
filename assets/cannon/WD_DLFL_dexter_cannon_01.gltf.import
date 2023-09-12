@@ -1,0 +1,48 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://csed4fl84dieq"
+path="res://.godot/imported/WD_DLFL_dexter_cannon_01.gltf-cfa8530c4b47a07b10afa43021fdce01.scn"
+
+[deps]
+
+source_file="res://assets/cannon/WD_DLFL_dexter_cannon_01.gltf"
+dest_files=["res://.godot/imported/WD_DLFL_dexter_cannon_01.gltf-cfa8530c4b47a07b10afa43021fdce01.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"WD_DLFL_dexter_cannon_010Mat": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/cannon/materials/cannon_1.tres"
+},
+"WD_DLFL_dexter_cannon_011Mat": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/cannon/materials/cannon_2.tres"
+}
+},
+"nodes": {
+"PATH:WD_DLFL_dexter_cannon_012/collision": {
+"import/skip_import": true
+}
+}
+}
+gltf/embedded_image_handling=1

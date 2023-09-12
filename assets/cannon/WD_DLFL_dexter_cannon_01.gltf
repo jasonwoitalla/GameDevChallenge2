@@ -1,0 +1,403 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_texture_transform"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "WD_DLFL_dexter_cannon_01"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 820,
+      "type": "VEC3",
+      "max": [
+        2.806251049041748,
+        10.028120040893555,
+        13.446410179138184
+      ],
+      "min": [
+        -2.8063030242919922,
+        4.9032940864562988,
+        -3.0172719955444336
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 820,
+      "type": "VEC3",
+      "max": [
+        0.99993085861206055,
+        0.99430906772613525,
+        0.99993085861206055
+      ],
+      "min": [
+        -0.99993085861206055,
+        -0.99961543083190918,
+        -0.9921492338180542
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 820,
+      "type": "VEC4",
+      "max": [
+        0.99998807907104492,
+        0.999893307685852,
+        0.99962317943573,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.996117353439331,
+        -0.99684345722198486,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 820,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        0.998485803604126
+      ],
+      "min": [
+        -0.0090792411938309669,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 820,
+      "type": "VEC2",
+      "max": [
+        0.99229472875595093,
+        0.99609375
+      ],
+      "min": [
+        0.00390625,
+        0.0034147500991821289
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 1236,
+      "type": "SCALAR",
+      "max": [
+        819.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1046,
+      "type": "VEC3",
+      "max": [
+        7.0481171607971191,
+        8.9609079360961914,
+        9.70028018951416
+      ],
+      "min": [
+        -7.0481600761413574,
+        0.014412440359592438,
+        -7.8391809463500977
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 1046,
+      "type": "VEC3",
+      "max": [
+        0.99999237060546875,
+        0.99986159801483154,
+        0.99999237060546875
+      ],
+      "min": [
+        -0.99999237060546875,
+        -0.99986159801483154,
+        -0.99999237060546875
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1046,
+      "type": "VEC4",
+      "max": [
+        0.99999237060546875,
+        1.0,
+        0.99999237060546875,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.98145020008087158,
+        -0.99999237060546875,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1046,
+      "type": "VEC2",
+      "max": [
+        0.99711602926254272,
+        0.98921185731887817
+      ],
+      "min": [
+        -1.2198990262390907E-08,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 1046,
+      "type": "VEC2",
+      "max": [
+        0.99774444103240967,
+        0.99609375
+      ],
+      "min": [
+        0.00390625,
+        0.00202864408493042
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 1542,
+      "type": "SCALAR",
+      "max": [
+        1045.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "WD_DLFL_dexter_cannon_01.bin",
+      "byteLength": 110052
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 9840,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9840,
+      "byteLength": 9840,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19680,
+      "byteLength": 13120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32800,
+      "byteLength": 6560,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39360,
+      "byteLength": 6560,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 45920,
+      "byteLength": 2472,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48392,
+      "byteLength": 12552,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 60944,
+      "byteLength": 12552,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 73496,
+      "byteLength": 16736,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 90232,
+      "byteLength": 8368,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 98600,
+      "byteLength": 8368,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 106968,
+      "byteLength": 3084,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "uri": "cannon_1234.jpg",
+      "name": "cannon_1234"
+    },
+    {
+      "uri": "cannon_5678.jpg",
+      "name": "cannon_5678"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "WD_DLFL_dexter_cannon_010Mat"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "WD_DLFL_dexter_cannon_011Mat"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "WD_DLFL_dexter_cannon_010"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 1
+        }
+      ],
+      "name": "WD_DLFL_dexter_cannon_011"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "scale": [
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -3297.13477,
+        369.620941,
+        5552.91162
+      ],
+      "name": "WD_DLFL_dexter_cannon_01"
+    },
+    {
+      "name": "collision"
+    },
+    {
+      "mesh": 0,
+      "name": "WD_DLFL_dexter_cannon_010"
+    },
+    {
+      "mesh": 1,
+      "name": "WD_DLFL_dexter_cannon_011"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "cannon_1234"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "cannon_5678"
+    }
+  ]
+}

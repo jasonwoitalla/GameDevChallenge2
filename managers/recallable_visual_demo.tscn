@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://by1dycuvyyy14"]
+
+[ext_resource type="Script" path="res://scripts/recallable_visual_demo.gd" id="1_v0xo3"]
+
+[node name="RecallableVisualDemo" type="Node3D"]
+top_level = true
+script = ExtResource("1_v0xo3")
+
+[node name="Meshes" type="Node3D" parent="."]
+top_level = true
+
+[node name="PositionSampler" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[connection signal="timeout" from="PositionSampler" to="." method="_on_position_sampler_timeout"]
